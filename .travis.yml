@@ -27,7 +27,7 @@ matrix:
 install:
   - cd ./boost_1_61_0
   - sudo ./bootstrap.sh
-  - sudo ./b2 install --with-libraries=date_time,filesystem,system
+  - sudo ./b2 install --with-date_time --with-filesystem --with-system
   - cd ..
 script:
   - mkdir ./bin/ && cd ./bin/
