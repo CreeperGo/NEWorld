@@ -24,6 +24,8 @@ matrix:
             - libasound2-dev
             - alsa-base
             - alsa-utils
+            - libsdl2-dev
+            - libsdl2-image-dev
 install:
   - cd ./boost_1_61_0
   - sudo ./bootstrap.sh
